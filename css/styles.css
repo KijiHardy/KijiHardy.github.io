@@ -3,6 +3,10 @@
 	padding: 0;
 	border: 0;
 }
+#logo{
+	width: 5%; 
+	height: 6vh; 
+}
 body{
 	background-color: #6D0C0D;
 
