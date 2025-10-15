@@ -5,21 +5,12 @@ body, header, nav, main, footer, h1, div, img, ul{
 }
 
 body{
-	background-color: #6D0C0D;
+	background-color: #000;
 }
 img {
 	max-width: 100%;
 	display: block;
 
-}
-
-.hero-image{
-	width: 100%
-}
-
-#logo{
-	max-height: 60%;
-	max-width: 60%;
 }
 /* Style rules for mobile viewport */
 
@@ -28,7 +19,7 @@ header{
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
-	background-color: #997966;
+	background-color: #000;
 	height: 190px;
 }
 
@@ -48,6 +39,26 @@ main{
 	font-size: 1.15em;
 	font-family: 'Roboto Slab', serif;
 
+}
+
+.tel-link{
+	background-color: #404040;
+	padding: 2%;
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.tel-link a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.5em;
+	display: block;
+}
+
+.hours{
+	margin-left: 10%;
 }
 
  nav ul{
@@ -95,13 +106,50 @@ footer a {
 	text-decoration: none;
 }
 
-.external-link {
+#weights, #cardio, #training {/* ID names*/
+	margin: 0 2%;
+	
+}
+
+.round{
+	border-radius: 8px;
+}
+
+
+#contact{
+	text-align: center;
+}
+
+#contact .contact-email-link{
+	color: #660;
+	text-decoration: none;
+	font-size: 1.35em;
+}
+
+.external-link { /* classes begin with a period */
 	color: 660;
 	font-weight: bold;
 	text-decoration: none;
 }
 
-iframe{
-	height: 450px;
-	width: 100%
+.map{
+	border: 2px solid #000;
+	width: 95%;
+	height: 50%;
 }
+
+/* #exercises{
+	clear: left;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	background-color: #f2f2f2;
+	padding: 1% 2%
+}
+
+#exercises dt{
+	font-weight: bold;
+}
+
+exercises dd{
+	padding: .5% 1% 2% 0;
+} */
