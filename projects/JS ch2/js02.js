@@ -52,6 +52,6 @@ function getEstimate(){
 
     //Add bookCost and reproduction rights if checked
     totalCost += buyBook ? BOOK_COST : 0;
-    totalCost += buyBook ? REPRO_COST : 0;
+    totalCost += buyRights ? REPRO_COST : 0;
     document.getElementById("estimate").innerHTML = "$" + totalCost;
 }
