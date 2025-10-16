@@ -1,0 +1,113 @@
+body, header, nav, main, footer, h1, div, img{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body{
+	background-color: #000;
+}
+img {
+	max-width: 100%;
+	display: block;
+
+}
+
+
+header{
+	width: 25%;
+	float: left;
+}
+
+nav{
+	width:70%;
+	float: right;
+	margin: 5em 3em 0 0;
+
+}
+
+main{
+	clear: left;
+	background-color: #fff;
+	padding: 2%;
+
+}
+
+ nav ul{
+	list-style-type:none;
+	margin: 0;
+	text-align: right;
+
+}
+
+nav li {
+	display: inline-block;
+	font-size: 1.55em;
+	font-family: Verdana, ;
+
+}
+
+nav li a {
+	display: block;
+	color: #fff; /* white, rgb(255, 255, 255) */
+	text-align: center;
+	padding: .5em 1em;
+	text-decoration: none;
+
+}
+
+
+footer p {
+	font-size: .75em;
+	text-align: center;
+	color: #fff;
+	padding: 0 1em;
+}
+
+footer a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#weights, #cardio, #training {/* ID names*/
+	width: 29%;
+	float: left;
+	margin: 0 2%;
+	
+}
+
+#exercises{
+	clear: left;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	background-color: #f2f2f2;
+	padding: 1% 2%
+}
+
+#exercises dt{
+	font-weight: bold;
+}
+
+exercises dd{
+	padding: .5% 1% 2% 0;
+}
+
+#contact{
+	text-align: center;
+}
+
+contact a{
+	color: #660;
+	text-decoration: none;
+	font-size: 1.35em;
+}
+
+.external-link { /* classes begin with a period */
+	color: 660;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.map{
+	border: 8px solid #000;
+}
