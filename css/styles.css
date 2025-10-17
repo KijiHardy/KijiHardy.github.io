@@ -5,14 +5,13 @@ body, header, nav, main, footer, h1, div, img, ul{
 }
 
 body{
-	background-color: #6D0C0D;
+	background-color: #997966;
 }
 img {
 	max-width: 100%;
 	display: block;
 
 }
-
 .hero-image{
 	width: 100%
 }
@@ -22,10 +21,8 @@ img {
 	max-width: 60%;
 }
 /* Style rules for mobile viewport */
-
 /* Style rules for header*/
 header{
-	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
 	background-color: #997966;
@@ -75,14 +72,15 @@ nav li a {
 
 }
 /* Show mobile class, hide tablet-desktop class */
-.mobile{
-	display: block;
-}
+	.mobile{
+		display: block;
+	}
 
-.tablet-desktop{
-	display: none;
-}
+	.tablet-desktop{
+		display: none;
+	}
 
+}
 footer p {
 	font-size: .75em;
 	text-align: center;
@@ -105,3 +103,86 @@ iframe{
 	height: 450px;
 	width: 100%
 }
+
+#sanchoQuote{
+	color: red;
+	font-family: 'Times New Roman', 'Courier New', Garamond;
+	font-style: italic;
+}
+
+.quoteCredits{
+	font-size: 15px;
+	font-style: italic;
+}
+
+/* Media Query for Tablet Viewport */
+	@media screen and (min-width: 630px){
+	
+	.tablet-desktop {
+		display: block;
+	}
+
+	.mobile{
+		display: none;
+	}
+	
+	#logo {
+		max-height: 10%;
+		max-width: 10%
+	}
+	
+	header{
+		position: static;
+		padding-bottom: 2%;
+		height: 20%
+	}
+	nav{
+		background-color: #997966
+	}
+	
+	nav li{
+		border-top: none;
+		display: inline-block;
+		border-right: 1px solid #fff;
+	}
+	
+	nav li: last-child {
+		border-right: none;
+	}
+	
+	nav li a {
+		padding: 0.1em 0.75 em;
+	}
+}
+
+/* Dekstop */
+@media screen and (min-width: 769px){
+	header{
+	width: 25%;
+	float: left;
+	padding-bottom: 0;
+	height: 30%
+	}
+	#logo {
+		max-height: 30%;
+		max-width: 30%
+	}
+	nav{
+		background-color: #997966;
+		height: 30%;
+	}
+	
+	nav ul{
+		text-align: right;
+	}
+	
+	nav li:last-child {
+		border-right: none;
+	}
+	#hero{
+		background-color:#997966;
+	}
+	main{
+		clear: left;
+	}
+	
