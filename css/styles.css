@@ -1,4 +1,4 @@
-body, header, nav, main, footer, h1, div, img, ul{
+body, header, nav, main, footer, h1, div, img, ul, figure, figcaption{
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -16,6 +16,30 @@ img {
 	width: 100%
 }
 
+#dreaming{
+	max-width: 30%;
+	max-height: 50%;
+}
+.frame{
+	position: relative;
+	max-width: 450 px;
+	margin: 2% auto;
+}
+.pic-text{
+	position: absolute;
+	bottom: 33px;
+	background: rgba(0, 0, 0, .3);
+	color: #fff;
+	width: 30%;
+	padding: 20px;
+	text-align: center;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+*{
+	box-sizing: border-box;
+}
 #logo{
 	max-height: 60%;
 	max-width: 60%;
@@ -34,7 +58,7 @@ header img{
 }
 
 nav{
-	padding: 1%
+	padding: 1%;
 	margin-bottom: 1%;
 
 }
@@ -80,7 +104,7 @@ nav li a {
 		display: none;
 	}
 
-}
+
 footer p {
 	font-size: .75em;
 	text-align: center;
@@ -146,13 +170,30 @@ iframe{
 		border-right: 1px solid #fff;
 	}
 	
-	nav li: last-child {
+	nav li:last-child {
 		border-right: none;
 	}
 	
 	nav li a {
 		padding: 0.1em 0.75 em;
 	}
+	.grid{
+		display: grid;
+		grid-template-columns: auto auto auto;
+		grid-gap: 20px;
+	}
+
+	article:nth-of-type(2){
+	background-color: rgba(204, 204, 204, 0.3);
+}
+
+article:nth-of-type(4){
+	background-color: rgba(204, 204, 204, 0.3);
+}
+
+article:nth-of-type(6){
+	background-color: rgba(204, 204, 204, 0.3);
+}
 }
 
 /* Dekstop */
@@ -185,4 +226,4 @@ iframe{
 	main{
 		clear: left;
 	}
-	
+}
