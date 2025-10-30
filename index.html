@@ -62,6 +62,43 @@
 				</article>
 		</ul>
 		</div>
+		<div id="form">
+			<h2>Any Questions? Ask them Here!</h2>
+			<form><!-- Start Form -->
+			
+			<fieldset>
+				<legend>Client Information</legend>
+				<label for="fName">First Name:</label>
+				<input type ="text" id="fName" name="fName" required>
+				
+				<label for="lName">Last Name:</label>
+				<input type="text" name="lName" id="lName" required>
+				
+				<label for="email">Email:</label>
+				<input type="email" name="email" id="email" required>
+				
+				<label for="phone">Phone:</label>
+				<input type="tel" od="phone" name="phone" required>
+				</fieldset>
+				
+				<fieldset>
+				<legend>Additional Information</legend>
+				<p>I would like more information about:</p>
+				
+				<label for="hrs"><input type="checkbox" name="interest" id="hrs" value="contact hours">Hours</label>
+				
+				<label for="pq"><input type="checkbox" name="interest" id="pq" value="Personal Question">Personal Question</label>
+				</fieldset>
+				
+				<fieldset>
+				
+					<label for="questions">Questions:</label>
+					<textarea id="questions" name="questions" rows="5" cols="35"></textarea>
+					</fieldset>
+					
+					<input type="submit" id="submit" value="Submit" class="btn">
+				</form>
+		</div>
 	</main>
 	
 	<!-- add webpage footer content -->
