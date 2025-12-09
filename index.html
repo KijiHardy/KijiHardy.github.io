@@ -13,18 +13,35 @@
 	<a href="index.html"><img src="images/BinahIcon.png" alt="logo" id="logo"></a> 
 	</header>
 	<!-- Use the nav area to add hyperlinks to other pages within the website-->
-	<nav>
-	<ul>
-		<li><a href="index.html">Home</a> </li> 
-		<li><a href ="about.html">About Me</a> </li>
-		<li><a href="favorites.html">Favorites</a></li>
-		<li><a href="hobby.html">Hobby</a></li>
-		<li><a href ="skills.html">Skills</a></li>
-		<li><a href ="academics.html">Academics</a></li> 
-		<li><a href ="contact.html">Contact Me</a></li>
-		<li><a href="projects.html">My Projects</a></li>
+	<div id="container">
+			<nav class="mobile-nav">
+			<div id="menu-links">
+				<a href="index.html">Home</a> 
+				<a href ="about.html">About Us</a> 
+				<a href="favorites.html">Classes</a> 
+				<a href="hobby.html">Nutrition</a> 
+				<a href="skills.html">Contact us</a>
+				<a href ="academics.html">Academics</a> 
+				<a href ="contact.html">Contact Me</a>
+				<a href="projects.html">My Projects</a>
+			</div>
+			<a class="menu-icon" onclick="hamburger()">
+				<div>&#9776;</div>
+			</a>
+			</nav>
+			<nav class="tablet-desktop">
+			<ul>
+				<li><a href="index.html">Home</a> </li> 
+				<li><a href ="about.html">About Me</a> </li>
+				<li><a href="favorites.html">Favorites</a></li>
+				<li><a href="hobby.html">Hobby</a></li>
+				<li><a href ="skills.html">Skills</a></li>
+				<li><a href ="academics.html">Academics</a></li> 
+				<li><a href ="contact.html">Contact Me</a></li>
+				<li><a href="projects.html">My Projects</a></li>
 		</ul>
-	</nav>
+			</div>
+		</nav>
 	
 	<div id="hero">
 	<img src="images/Binah_tea.webp" alt="Binah drinking tea as roland enters." class="hero-image">
@@ -108,6 +125,6 @@
 	<p>&copy; Copyright 2025. All Rights Reserved</p>
 	<p><a href="mailto:dashawn.hardy@stu.cvccworks.edu" target="_blank">dashawn.hardy@stu.cvccworks.edu</a></p>
 	</footer>
-	
+	<script src="scripts/scripts.js"></script> 
 </body>
 </html>
