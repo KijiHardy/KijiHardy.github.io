@@ -186,11 +186,11 @@ nav li a {
 
 }
 /* Show mobile class, hide tablet-desktop class */
-	.mobile{
+	.mobile, .mobile-nav{
 		display: block;
 	}
 
-	.tablet-desktop{
+	.tablet-desktop, .menu-links{
 		display: none;
 	}
 
@@ -230,6 +230,38 @@ iframe{
 	font-style: italic;
 }
 
+.mobile-nav a{
+	color: #f5d643;
+	text-align: center;
+	font-size: 2em;
+	text-decoration: none;
+	padding: 2%;
+	display: block;
+}
+
+.mobile-nav a.menu-icon{
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+/* Logo animation */
+@keyframes spinOnce {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Class that triggers the spin */
+.spin-once {
+    animation: spinOnce 0.6s ease; /* spin duration */
+}
+
+
 /* Media Query for Tablet Viewport */
 	@media screen and (min-width: 630px){
 	
@@ -262,7 +294,7 @@ iframe{
 		display: block;
 	}
 
-	.mobile{
+	.mobile, .mobile-nav{
 		display: none;
 	}
 	
@@ -351,7 +383,7 @@ article:nth-of-type(6){
 	form-grid{
 		display: grid;
 		grid-template-columns: auto auto auto;
-		grid-grap: 20px;
+		grid-gap: 20px;
 	}
 	
 	.btn{
