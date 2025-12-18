@@ -207,6 +207,15 @@ footer a {
 	text-decoration: none;
 }
 
+footer .copyright{
+	font-size: 0.75em;
+	text-align: center;
+	color: #fff;
+	padding: 2% 4%;
+	float: left; 
+	width: 75%;
+}
+
 .external-link {
 	color: 660;
 	font-weight: bold;
@@ -244,6 +253,19 @@ iframe{
 	position: absolute;
 	right: 0;
 	top: 0;
+}
+
+.social {
+	float: right;
+	width: 20%;
+	padding: 2%;
+}
+
+.social img{
+	display: inline-block;
+	padding: 5%;
+	height: 30%;
+	width: 30%;
 }
 
 /* Logo animation */
